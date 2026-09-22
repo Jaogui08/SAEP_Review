@@ -1,7 +1,7 @@
 import readLine from "readline-sync";
-import {Produto} from "./src/models/Produto.js";
+import { Produto } from "./src/models/Produto.js";
 
-const ObjProduto = new Produto("Laranja",4);
+const ObjProduto = new Produto("Laranja", 4);
 
 console.log(ObjProduto.getNome);
 console.log("R$ " + ObjProduto.getPreco);
